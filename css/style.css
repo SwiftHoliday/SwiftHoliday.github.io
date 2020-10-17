@@ -19,7 +19,7 @@ main {
 }
 
 header {
-    font-family: Pattaya;
+    font-family: Pattaya, sans-serif;
     padding: 0px 5px;
     text-shadow: 1px 1px 5px black;
     color: white;
@@ -39,9 +39,64 @@ footer {
 
 .container {
     text-align: center;
-    padding: 200px 27px 0px 0px;
+    padding: 180px 5px 200px 5px;
+}
+
+.container span {
+   font-family: 'Lexend Exa', sans-serif;
+    color: white;
+    text-shadow:1px 1px 5px black; 
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.toptext {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.bottomtext {
+    font-size: 30px;
+    color: yellow;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -20px;
+    }
 }
 
 .display-quote {
+    border: 3px dotted red;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+.btn1 {
+    color: white;
+    background-color: #41a1f2;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to left, black, grey, white);
     
 }
