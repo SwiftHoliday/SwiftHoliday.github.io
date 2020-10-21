@@ -11,6 +11,7 @@ Just as the oats we use for our early morning breakfast have great nutritional v
 * [Bootstrap 4](https://www.bootstrapcdn.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/icons?d=gallery)
+* AJAX
 
 # API used
 [Forismatic](https://forismatic.com/en/api/)
@@ -32,7 +33,7 @@ Just as the oats we use for our early morning breakfast have great nutritional v
 * Mobile support
 
 # Link to site
-[Qoats](https://swiftholiday.github.io) <------ Live Site
+[Qoats](https://swiftholiday.github.io) <------ Live Site 
 
 # Resources
 * [CSS Animation Sequence](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)

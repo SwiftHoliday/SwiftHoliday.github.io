@@ -6,6 +6,12 @@ $('.toptext').fadeIn(7000);
 $('.bottomtext').hide();
 $('.bottomtext').fadeIn(7000);
 
+$('#quote').hide();
+$('#quote').fadeIn(7000);
+
+$('#author').hide();
+$('#author').fadeIn(8000);
+
 // Variables
 let quote;
 let author;
