@@ -1,16 +1,17 @@
 
 
-//$('.toptext').hide();
-//$('.toptext').fadeIn(7000);
+$('.toptext').hide();
+$('.toptext').fadeIn(7000);
 
-//$('.bottomtext').hide();
-//$('.bottomtext').fadeIn(10000);
+$('.bottomtext').hide();
+$('.bottomtext').fadeIn(8000);
 
 // Constants
 
 
 // Variables
-
+let quote;
+let author;
 
 // Cached Element References
 
@@ -29,11 +30,26 @@ $(document).ready(function() {              // Load function on site load
                 format: 'jsonp', 
             },
             success: function(display) {
-                console.log(display.quoteText);
+               quote = display.quoteText;
+               author = display.quoteAuthor;
+
+               $('#quote').text(quote);
+               if(author) {
+                   $('#author').text('said by ' + author);
+               } else {                                     // If there's no author display unknown
+                   $('#author').text('- unknown');
+               }
             }
         });
 
         }
-        
         getNewQuote();
-})
+
+        $('.get-quote').on('click', function () {     // New quote with the get qoat button
+            getNewQuote();
+        });
+
+        $('.share-quote').on('click', function() {
+            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + '-' + author));
+        });
+});

@@ -102,3 +102,11 @@ hr {
     background: linear-gradient(to left, black, grey, white);
     
 }
+
+#author {
+    color :white;
+}
+
+#quote {
+    color: white;
+}
