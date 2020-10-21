@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -84,11 +85,11 @@ footer {
 .display-quote {
     border: 3px dotted red;
     border-radius: 30px;
-    padding: 10px;
+    padding: 12px;
     margin: 0px 0px 20px 0px;
 }
 
-.btn1 {
+.tweetbtn {
     color: white;
     background-color: #41a1f2;
 }
@@ -97,6 +98,7 @@ hr {
     height: 5px;
     border: none;
     border-radius: 10px;
+    width: 600;
     background: linear-gradient(to left, black, grey, white);
     
 }
