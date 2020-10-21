@@ -33,9 +33,9 @@ $(document).ready(function() {              // Load function on site load
                quote = display.quoteText;
                author = display.quoteAuthor;
 
-               $('#quote').text(quote);
+               $('#quote').text(' " ' + quote + ' " ');
                if(author) {
-                   $('#author').text('said by ' + author);
+                   $('#author').text(' by - ' + author);
                } else {                                     // If there's no author display unknown
                    $('#author').text('- unknown');
                }
