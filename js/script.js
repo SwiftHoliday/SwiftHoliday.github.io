@@ -4,17 +4,11 @@ $('.toptext').hide();
 $('.toptext').fadeIn(7000);
 
 $('.bottomtext').hide();
-$('.bottomtext').fadeIn(8000);
-
-// Constants
-
+$('.bottomtext').fadeIn(7000);
 
 // Variables
 let quote;
 let author;
-
-// Cached Element References
-
 
 // Functions 
 
@@ -29,8 +23,8 @@ $(document).ready(function() {              // Load function on site load
                 lang: 'en',
                 format: 'jsonp', 
             },
-            success: function(display) {
-               quote = display.quoteText;
+            success: function(display) {    // AJAX method Function runs when the request succeeds
+               quote = display.quoteText;      
                author = display.quoteAuthor;
 
                $('#quote').text(' " ' + quote + ' " ');
@@ -49,7 +43,7 @@ $(document).ready(function() {              // Load function on site load
             getNewQuote();
         });
 
-        $('.share-quote').on('click', function() {
-            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + '-' + author));
+        $('.share-quote').on('click', function() {    // Share Quote
+            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(' " ' + quote +' " ' +  '-' + author));
         });
 });
