@@ -6,11 +6,28 @@ Just as the oats we use for our early morning breakfast have great nutritional v
 
 * HTML5
 * CSS3
-* jQuery
+* [jQuery](https://jquery.com/)
 * JavaScript
-* Bootstrap 4
-* Google Fonts
-* Font Awesome
+* [Bootstrap 4](https://www.bootstrapcdn.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/icons?d=gallery)
 
 # API used
 [Forismatic](https://forismatic.com/en/api/)
+
+# Screenshots
+
+![Homepage Screenshot](https://i.imgur.com/ywZSYs9m.png)
+
+# Wireframe
+
+![Wire Frame](https://i.imgur.com/LkwlaLLm.png)
+
+# Future plans/Updates
+
+* Add support for favoriting quotes
+* Music control
+* Add previous quote button
+* Automate code cycle
+* Mobile support
+
