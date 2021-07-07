@@ -33,7 +33,7 @@ Just as the oats we use for our early morning breakfast have great nutritional v
 * Mobile support
 
 # Link to site
-[Qoats](https://swiftholiday.github.io) <------ Live Site 
+[Qoats](https://swiftholiday.github.io/qoats-app/) <------ Live Site 
 
 # Resources
 * [CSS Animation Sequence](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
